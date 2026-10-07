@@ -1,3 +1,23 @@
+
+
+#pip3 install pandas
+#pip3 install sklearn
+
+#
+#python3 recommendation_example.py
+#
+#🎬 Movies similar to 'Interstellar':
+#----------------------------------------
+#• The Martian (Similarity Score: 0.48)
+#• Inception (Similarity Score: 0.35)
+#
+#🎬 Movies similar to 'The Notebook':
+#----------------------------------------
+#• La La Land (Similarity Score: 0.50)
+#• Interstellar (Similarity Score: 0.00)
+
+
+
 import pandas as pd
 from sklearn.feature_extraction.text import TfidfVectorizer
 from sklearn.metrics.pairwise import cosine_similarity
